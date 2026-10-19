@@ -1,0 +1,28 @@
+
+# Environnements Python
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Fichiers temporaires
+*.log
+.DS_Store
+Thumbs.db
+
+# Données et résultats locaux
+data/
+evaluation/pdfs/
+submission.csv
+
+# Modèles locaux volumineux
+models/
